@@ -1,16 +1,12 @@
-# サンプルアプリケーション
+### ECS Sample
 
-データベースとの疎通をチェック可能なサンプルアプリケーションです。
-
-## 実行手順
-
-### 1. MySQL のコンテナの起動
+#### 1. Starting a MySQL container
 
 ```
 docker-compose up -d
 ```
 
-### 2. サンプルアプリケーションの起動
+#### 2. Launching the application
 
 ```console
 npm ci
